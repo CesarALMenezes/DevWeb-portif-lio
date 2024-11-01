@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0077b6;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Seções */
+section {
+    margin: 20px 0;
+}
+
+#sobre {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#galeria img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    display: block;
+}
+
+/* Lista de Habilidades */
+#habilidades ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer h3 {
+    margin-bottom: 0.5em;
+}
+
+footer a {
+    color: #00b4d8;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
